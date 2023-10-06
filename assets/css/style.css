@@ -843,7 +843,7 @@
 .newsletter-instagram {
     width: 100%;
     display: flex;
-    padding: 100px 300px;
+    padding: 100px 300px 96px 300px;
     flex-direction: column;
     align-items: center;
     gap: 70px;
@@ -873,23 +873,226 @@
     margin-bottom: 73px;
 }
 
-.newsletter-form input {
+.newsletter-form-import {
+    position: relative;
+}
+
+.newsletter-form-import input {
+    margin-right: 26px;
     width: 643px;
     height: 32px;
     border: none;
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid #000;
     background-color: transparent;
-    padding-left: 15px;
-
 }
 
-
-
-.newsletter-form input::placeholder {
+.newsletter-form-import label {
     font-size: 16px;
     font-weight: 600;
     color: rgba(30, 40, 50, 0.5);
+    position: absolute;
+    left: 15px;
+    pointer-events: none;
 }
+
+.newsletter-form-submit {
+    position: relative;
+}
+
+
+.newsletter-form-submit button{
+    position: absolute;
+    width: 91px;
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    
+}
+
+.newsletter-form-submit span {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E2832;
+    text-transform: capitalize;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+}
+
+/* footer */
+.footer {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+
+.top-footer {
+    display: flex;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 392px;
+}
+
+.left-footer-logo {
+    width: 180px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-footer-logo .logo-gruop {
+    width: 31px;
+    height: 15px;
+}
+
+.left-footer-logo .logo-text {
+    font-size: 29px;
+    font-family: 'AmstelvarAlpha';
+}
+
+.left-footer-text span{
+    display: inline-block;
+    width: 100%;
+    font-feature-settings: 'clig' off, 'liga' off;
+    color: rgba(30, 40, 50, 0.75);
+    font-size: 16px;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    line-height: 28px;
+}
+
+.left-footer-social {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.left-footer-social a {
+    font-size: 20px;
+    color: #1E2832;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    padding-top: 1px;
+}
+
+.footer-menu-heading {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.footer-menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.footer-menu-list li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #1E2832;
+}
+
+.top-footer .footer-menu:nth-child(2) {
+    width: 200px;
+    margin-left: 56px;
+}
+
+.top-footer .footer-menu:nth-child(3) {
+    width: 200px;
+    margin-left: 136px;
+}
+
+.top-footer .footer-menu:nth-child(4) {
+    width: 199px;
+    margin-left: 137px;
+}
+
+.bottom-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 300px;
+    background-color: #1E2832;
+}
+
+.bottom-footer-copyright span{
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-right: 376px;
+}
+
+.bottom-footer-payment {
+    width: 283px;
+    height: 24px;
+    margin-right: 375px;
+}
+
+.bottom-footer-scroll {
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+    gap: 4px;
+    background-color: transparent;
+    border: none;
+}
+
+.bottom-footer-scroll span {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.bottom-footer-scroll i {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
 
 
 
