@@ -294,6 +294,8 @@
     font-family: 'Roboto';
 }
 
+/* wrap */
+
 .wrapper {
     width: 1920px;
     margin: 0 auto;
@@ -310,11 +312,11 @@
     margin: -12px -12px;
 }
 
+/* thong so col */
 .col {
     padding: 12px 12px;
 }
 
-/* thong so col */
 .col-2 {
     width: calc(100% / 2);
 }
